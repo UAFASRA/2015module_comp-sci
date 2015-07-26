@@ -16,6 +16,7 @@
   <link rel="stylesheet" type="text/css" href="semantic-ui/components/header.css">
   <link rel="stylesheet" type="text/css" href="semantic-ui/components/image.css">
   <link rel="stylesheet" type="text/css" href="semantic-ui/components/menu.css">
+  <link rel="stylesheet" type="text/css" href="semantic-ui/components/accordion.css">
 
   <link rel="stylesheet" type="text/css" href="semantic-ui/components/divider.css">
   <link rel="stylesheet" type="text/css" href="semantic-ui/components/dropdown.css">
@@ -26,7 +27,7 @@
   <link rel="stylesheet" type="text/css" href="semantic-ui/components/sidebar.css">
   <link rel="stylesheet" type="text/css" href="semantic-ui/components/transition.css">
 
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="home.css">
   <style>
   .ui.inverted.segment, .ui.primary.inverted.segment {
     padding-bottom: 5%;
@@ -64,6 +65,52 @@
     margin-top: 1%;
   }
 
+  .ui.stackable.inverted.divided.equal.height.stackable.grid {
+    padding-left: 5%;
+    padding-right: 5%
+  }
+
+  .ui.large.inverted.pointing.menu .item {
+    padding: 2%;
+  }
+
+  .ui.huge.primary.button a {
+    color: #ffffff;
+  }
+
+  .ui.styled.accordion, .ui.styled.accordion .accordion {
+    background-color: #2185D0;
+    color: #ffffff;
+    font-weight: normal;
+    border: none;
+    box-shadow: none;
+  }
+
+  .ui.styled.accordion .title {
+    color: #ffffff;
+    font-weight: normal;
+    border: none;
+    box-shadow: none;
+  }
+
+  .ui.styled.accordion .title:hover {
+    color: #ffffff;
+    font-weight: normal;
+    border: none;
+    box-shadow: none;
+  }
+
+  .ui.styled.accordion .active.title {
+    color: #ffffff;
+    font-weight: normal;
+    border: none;
+    box-shadow: none;
+  }
+
+  .ui.inverted.pointing.menu .active.item:after {
+    background-color: #ffffff !important;
+  }
+
   </style>
 </head>
 <header>
@@ -75,16 +122,43 @@
       <a class="active item">Home</a>
       <a class="item">Instructors</a>
       <a class="item">Students</a>
-      <a class="item">Github</a>
+      <a class="item" href="https://github.com/UAFASRA/2015module_comp-sci">Github</a>
     </div>
   </div>
 
   <!-- Sidebar Menu -->
   <div class="ui vertical inverted sidebar menu">
     <a class="active item">Home</a>
-    <a class="item">Instructors</a>
-    <a class="item">Students</a>
-    <a class="item">Github</a>
+    <div class="ui styled accordion">
+      <div class="title">
+        Instructors
+        <i class="dropdown icon inverted"></i>
+      </div>
+      <div class="content">
+        <a class="item" href="http://www.nezteb.net/">Noah</a>
+        <a class="item" href="https://www.youtube.com/embed/Sagg08DrO5U?rel=0;autoplay=1;iv_load_policy=3">Baxter</a>
+        <a class="item" href="http://www.holton.io/">Jasper</a>
+      </div>
+    </div>
+    <div class="ui styled accordion">
+      <div class="title">
+        Students
+        <i class="dropdown icon inverted"></i>
+      </div>
+      <div class="content">
+        <a class="item" href="charlotte.html">Charlotte</a>
+        <a class="item" href="alexis.html">Alexis</a>
+        <a class="item" href="jimmy.html">Jimmy</a>
+        <a class="item" href="oscar.html">Oscar</a>
+        <a class="item" href="jeremiah.html">Jeremiah</a>
+        <a class="item" href="tim.html">Tim</a>
+        <a class="item" href="anthony.html">Anthony</a>
+        <a class="item" href="rishi.html">Rishi</a>
+        <a class="item" href="lazarus.html">Lazarus</a>
+        <a class="item" href="linnaea.html">Linnaea</a>
+      </div>
+    </div>
+    <a class="item" href="https://github.com/UAFASRA/2015module_comp-sci">Github</a>
   </div>
 
   <!-- Page Contents -->
@@ -98,9 +172,32 @@
             <i class="sidebar icon"></i>
           </a>
           <a class="active item">Home</a>
-          <a class="item">Instructors</a>
-          <a class="item">Students</a>
-          <a class="item">Github</a>
+          <div class="ui simple dropdown item">
+            Instructors
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <a class="item" href="http://www.nezteb.net/">Noah</a>
+              <a class="item" href="https://www.youtube.com/embed/Sagg08DrO5U?rel=0;autoplay=1;iv_load_policy=3">Baxter</a>
+              <a class="item" href="http://www.holton.io/">Jasper</a>
+            </div>
+          </div>
+          <div class="ui simple dropdown item">
+            Students
+            <i class="dropdown icon"></i>
+            <div class="menu">
+              <a class="item" href="charlotte.html">Charlotte</a>
+              <a class="item" href="alexis.html">Alexis</a>
+              <a class="item" href="jimmy.html">Jimmy</a>
+              <a class="item" href="oscar.html">Oscar</a>
+              <a class="item" href="jeremiah.html">Jeremiah</a>
+              <a class="item" href="tim.html">Tim</a>
+              <a class="item" href="anthony.html">Anthony</a>
+              <a class="item" href="rishi.html">Rishi</a>
+              <a class="item" href="lazarus.html">Lazarus</a>
+              <a class="item" href="linnaea.html">Linnaea</a>
+            </div>
+          </div>
+          <a class="item" href="https://github.com/UAFASRA/2015module_comp-sci">Github</a>
         </div>
       </div>
 
@@ -109,7 +206,7 @@
           Alaska Summer Research Academy
         </h1>
         <h2 class="ui block medium inverted header">Computer Science & Web Development</h2>
-        <div class="ui huge primary button">Learn More <i class="right arrow icon"></i></div>
+        <div class="ui huge primary button"><a href="http://uaf.edu/asra/summer-programs/middle-school/2013-modules/robotics/">Learn More <i class="right arrow icon"></i></a></div>
       </div>
 
     </div>
@@ -172,7 +269,7 @@
             <div class="ui inverted link list">
               <a href="#" class="item">Sitemap</a>
               <a href="#" class="item">Contact Us</a>
-              <a href="#" class="item">Main ASRA Page</a>
+              <a href="http://uafasra.github.io/" class="item">Main ASRA Page</a>
             </div>
           </div>
           <div class="seven wide column">
@@ -189,6 +286,13 @@
 <foot>
   <script type="text/javascript" src="semantic-ui/jquery-2.1.4.min.js"></script>
   <script type="text/javascript" src="semantic-ui/semantic.min.js"></script>
-  <script type="text/javascript" src="index.js"></script>
+  <script type="text/javascript" src="semantic-ui/dropdown.js"></script>
+  <script type="text/javascript" src="semantic-ui/accordion.js"></script>
+  <script type="text/javascript" src="home.js"></script>
+  <script type="text/javascript">
+    $('.ui.accordion')
+      .accordion()
+    ;
+  </script>
 </foot>
 </html>
