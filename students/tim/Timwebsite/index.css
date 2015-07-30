@@ -1,0 +1,110 @@
+
+    
+body {
+    display:inline-block;
+    background-color:black;
+}
+
+.pagecontent {
+    height:1080px;
+    position:relative;
+}
+#heading1  {
+
+    color:white;
+    font-family: italic;
+    position:absolute;
+    left:540px; top:120px;
+    }
+#heading2  {
+
+    font-family:italic;
+position:absolute;
+left:1000px; top:10px;
+color:white;
+font-weight:bold;
+}
+
+#interests  {
+    font-size:16px;
+    
+    font-family:italic;
+    position:absolute;
+    left:985px; top:50px;
+    font-weight:bold;
+    color:white;
+}
+
+#heading3 {
+    font-family:italic;
+    width: 50%;
+  height: 50%;
+  position: absolute;
+  left:300px; top:10px;
+  color:white;
+}
+  #mainheading  {
+      font-family:italic;
+      font-size:50px;
+    width: 50%;
+  height: 50%;
+  position: absolute;
+  left:540px; bottom:0px; right:0px; top:10px;
+color:white;
+ }
+  #teams  {
+      font-family:italic;
+      position:absolute;
+      left:300px; top:50px;
+     color:white;
+  }
+ img  {
+     height:700px;
+     width:1500px;
+ }
+  #NHL  { 
+position:absolute;
+left:600px;
+top:540px;
+}
+#about  {
+    position:absolute;
+    left:1080px;
+    top:40px;
+    display: block;
+    height:50px;
+    width:100px;
+    background: #34696f;
+    text-align:center;
+    font-weight:bold;
+    font-size:30px;
+    font-family:italic;
+}
+#siblings  {
+    position:absolute;
+    left:10px;
+    top:450px;
+}
+#dogs  {
+    position:absolute;
+    left:700px;
+    top:440px;
+}
+#heading4  {
+    position:absolute;
+    left:40px;
+    top:405px;
+}
+#dogsfamily  {
+    position:absolute;
+    left:720px;
+    top:355px;
+}
+.link  {
+    text-decoration:none;
+}
+
+
+
+
+

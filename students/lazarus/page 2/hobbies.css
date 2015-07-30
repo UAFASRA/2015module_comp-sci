@@ -1,0 +1,192 @@
+
+
+html, body {
+	margin:0px;
+	padding:0px;
+}
+
+.container1{
+	background-color: #85856A;
+    overflow: auto;
+	width: 100%;
+	position: absolute;
+
+}
+.container2{
+	background-color: #ffffff;
+	width:75%;
+	overflow: auto;
+  margin: auto;
+  position: relative;
+
+}
+.container3 {
+background-color: rgba(0, 57, 255, 0.23);
+position: relative;
+top: 25%;
+margin-bottom: 15%;
+margin-left: 3%;
+margin-right: 3%
+
+}
+.container3  .img1{
+background-color: yellow;
+position: relative;
+height:50%;
+width: 50%;
+top: 0px;
+left:0px;
+
+}
+.big2 {
+position:relative;
+left: 708px;
+top: -258px;
+display: inline-block;
+}
+
+.big1{
+ position:relative;
+ background-color: #C0C0A7;
+	width: 95%;
+	height: 150px;
+	top: -149px;
+	left: 28px;
+}
+.there{
+margin-left: -25%;
+margin-top: -22%;
+}
+.ul{
+margin: 0%;
+}
+
+h3{
+
+display:inline-block;
+margin: 0%
+}
+.h21{
+position: relative;
+top: 21px;
+
+}
+ .img1 {
+ position: relative;
+ right: -647px;
+ left:425px;
+ top: -65px;
+ }
+ 
+ .img2 {
+ position: relative;
+ top: 6px;
+ right: 534px;
+ }
+ .img3 {
+ position: relative;
+ top: -260px;
+ right: 337px;
+ }
+
+
+
+
+
+.navigation {
+
+    list-style: none;
+	background-color: #0000FF;
+	height: 3%;
+	width: 966px;
+	margin-top: -.5px;
+    position: fixed;
+    z-index: 3;
+	
+}
+
+
+.nav-item1{
+	position: relative;
+	left: -8px;
+	top: -2px
+}
+.nav-item2{
+position: absolute;
+color: red;
+	left: 12%;
+	top: -1px;
+}
+.nav-item3{
+position: relative;
+text-decoration: none;
+	left: 18%;
+	top: -20px;
+}
+
+	
+
+
+button{
+border: 2px solid black; 
+}
+/*
+ 
+ .img1 {
+ position: relative;
+ top: 25px;
+ right: -647px;
+ }
+ 
+ .img2 {
+ position: relative;
+ top: 96px;
+ right: 323px;
+ }
+ .img3 {
+ position: relative;
+ top: -170px;
+ right: 160px;
+ }
+ 
+ .big2 h3{
+padding-left: 130px;
+}
+
+.big2 {
+padding-top: 20;
+position:relative;
+left: 704px;
+top: 25px;
+}
+.big2 ul{
+position: relative;
+top: 35px;
+right: 151px;
+
+}
+
+
+
+.big1{
+ position:relative;
+ background-color: #C0C0A7;
+	width: 95%;
+	height: 150px;
+	top: 200px;
+	left: 2.5%;
+}
+.big1 h3{
+position: relative;
+top: -14px;
+right: 188px;
+}
+.big1 ul{
+position: relative;
+top: 22px;
+right: 355px;
+}
+
+ 
+
+ 
