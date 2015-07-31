@@ -35,9 +35,9 @@ width:200px;
 border:gray;
 }
 #anchor {
-position: relative;
-bottom: 130%;
-left: 50%; 
+position: absolute;
+top: 800px;
+left: 0px;
 }
 .bio {
 background-color: black;
@@ -61,7 +61,3 @@ position:relative;
 top:-950px;
 right:-200px;
 }
-
-
-
-
